@@ -23,13 +23,14 @@
                      <h2> Computer <span id="cscore">: 0 </span></h2>
                  </div>
         </div>
-        <div id="choices">
-           <button aria-label="Rock" data-choice="0" class="choice">Rock</button>
-           <button aria-label="Paper" data-choice="0" class="choice">Paper</button>
-           <button aria-label="Scissors" data-choice="0" class="choice">Scissors</button>
-           <button aria-label="Lizard" data-choice="0" class="choice">Lizard</button>
-           <button aria-label="Spock" data-choice="0" class="choice">Spock</button>
-           <p>Click on the images to select your move</p>
+        <div id="moves">
+           <button aria-label="Rock" data-choice="0" class="choice"><i class="fa-solid fa-hand-back-fist"></i>Rock</button>
+           <button aria-label="Paper" data-choice="1" class="choice"><i class="fa-solid fa-hand"></i>Paper</button>
+           <button aria-label="Scissors" data-choice="2" class="choice"><i class="fa-solid fa-hand-scissors"></i>Scissors</button>
+           <button aria-label="Lizard" data-choice="3" class="choice"><i class="fa-solid fa-hand-lizard"></i>Lizard</button>
+           <button aria-label="Spock" data-choice="4" class="choice"><i class="fa-solid fa-hand-spock"></i>Spock</button>
+           <br>
+           <h4>Click on the images to select your move</h4>
         </div>
       
 
@@ -37,5 +38,9 @@
     <script src="assets/js/script.js"></script> 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/46a797e506.js" crossorigin="anonymous"></script>
+    <footer>
+        <h4>Game Rules</h4>
+        <p>scissors cut paper|paper covers rock|rock crushes lizard|lizard poisons spock|spock smashes scissors</p>
+    </footer>
 </body>
 </html>

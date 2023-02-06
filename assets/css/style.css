@@ -3,6 +3,12 @@ body {
    margin : 0;
   
 }
+header {
+    background-color:rgba(64, 146, 99, 0.824);
+    padding: 5px;
+    
+}
+
 h1,h3 {
     font-size: xxlarge;
     font-weight: bolder;
@@ -13,7 +19,7 @@ h1,h3 {
     height: 100%;
     width : 75%;
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 10px;
     text-align: center;
     
@@ -56,9 +62,38 @@ h2 {
     background-repeat: no-repeat;
     background-size: contain;
 }
-#choices {
-    height: 150px;
+#moves {
+    height: 120px;
     width: 100%;
     border: 2px solid;
     margin-top: 5%;
+    padding: 15px;
+    background-color: rgba(56, 147, 95, 0.824);
+    
+}
+.choice {
+    font-size: x-large;
+    float: left;
+    display: flex;
+    margin-left: 7%;
+    margin-top: 20px;
+    
+
+}
+#moves h4 {
+    text-align: center;
+    margin-top: 8%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    
+  
+}
+footer h4 {
+    padding-top: 4px;
+
 }
