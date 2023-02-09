@@ -228,7 +228,26 @@ footer {
     #choice h4 {
         margin-top: 12%;
     }
-}    
+} 
 
-/*responsiveness for screen size 1200px and down*/
+/*responsiveness for screen size 670px and down*/
+
+@media (max-width: 670px){
+    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5{
+        font-size: small;
+        
+    }
+    #choice h4 {
+        font-size: medium;
+    }
+}
+/*responsiveness for screen size 600px and down*/
+
+@media (max-width: 600px){
+    /*buttons*/
+    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5 {
+        margin: 2px;
+        margin-left: 2%;
+    }
+}    
 /*responsiveness for screen size 1200px and down*/
