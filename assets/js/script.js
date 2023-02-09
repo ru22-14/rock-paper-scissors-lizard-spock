@@ -58,3 +58,87 @@ function getComputerChoice() {
     
 }
 console.log(getComputerChoice());
+
+/** main game function */
+
+function game(playerChoice){
+    
+    
+    const computerChoice = getComputerChoice();
+
+    if (playerChoice === computerChoice){
+        console.log("it's a Tie");
+        return
+    }
+    else if (playerChoice === rock_button ) {
+        if(computerChoice === paper){
+        console.log("You loose");
+        loose(playerChoice, computerChoice);
+        
+    }else {
+        console.log("you win")
+        win(playerChoice, computerChoice);
+    }
+}
+    else if(playerChoice === paper_button ) {
+        if(computerChoice === rock){
+        console.log("you win");
+        win(playerChoice, computerChoice);
+        
+    } else {
+        console.log("Computer wins");
+        loose(playerChoice, computerChoice);
+    }
+}
+  
+    else if (playerChoice ===  scissors_button ) {
+        if(computerChoice === rock){
+            console.log("Computer Wins");
+            loose(playerChoice, computerChoice);
+             
+            
+        } else{
+            console.log("you win");
+            win(playerChoice, computerChoice);
+        }
+        
+} 
+
+    else if (playerChoice ===  lizard_button ) {
+        if(computerChoice === rock){
+            console.log("Computer Wins");
+            loose(playerChoice, computerChoice);
+            
+            
+    
+        }else{
+            console.log("you win");
+            win(playerChoice, computerChoice);
+        }
+} 
+
+    else if (playerChoice ===  lizard_button ) {
+        if(computerChoice === spock){
+            console.log("you Win");
+            win(playerChoice, computerChoice);
+           
+        } else{
+            console.log("Computer Wins");
+            loose(playerChoice, computerChoice);
+            
+        }
+    } 
+
+    else if (playerChoice ===  spock_button ) {
+        if(computerChoice === scissors){
+            console.log("you Win");
+            win(playerChoice, computerChoice);
+        } else {
+            console.log("Computer Wins");
+            loose(playerChoice, computerChoice);
+             
+        }
+        
+    }
+    console.log(playerChoice);   
+} 
