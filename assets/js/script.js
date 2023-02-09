@@ -142,3 +142,14 @@ function game(playerChoice){
     }
     console.log(playerChoice);   
 } 
+/** win function will display the winner */
+function win(playerChoice, computerChoice) {
+    playerScore++;
+    playerScore_span.innerHTML = playerScore;
+   computerScore_span.innerHTML = computerScore;
+   if (playerScore === 5){
+    result_h3.innerHTML = (`You Win`);
+    playerScore = 0;
+    computerScore = 0;
+} 
+} 
