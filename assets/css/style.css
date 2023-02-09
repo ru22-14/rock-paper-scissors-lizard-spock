@@ -3,6 +3,7 @@ body {
     margin: 0;
 
 }
+
 /*game heading*/
 header {
     background-color: rgba(64, 146, 99, 0.824);
@@ -58,11 +59,11 @@ h1 {
 }
 
 /*player score side*/
-#player-score  {
+#player-score {
     font-size: xx-large;
     font-weight: 600;
     margin-right: 10px;
-    
+
 }
 
 /*winner announcement*/
@@ -71,9 +72,9 @@ h3 {
     text-align: center;
 }
 
- /* player score result*/
+/* player score result*/
 
- /*computer score side*/
+/*computer score side*/
 .pc-score {
     float: right;
     font-size: larger;
@@ -91,11 +92,11 @@ h3 {
 
 /* computer score result*/
 
-#computer-score  {
+#computer-score {
     font-size: xx-large;
     font-weight: 600;
     margin-left: 10px;
-    
+
 }
 
 /* moves div*/
@@ -121,6 +122,7 @@ h3 {
     margin-left: 8%;
     padding: 4px;
 }
+
 #btn-2 {
     font-size: x-large;
     float: left;
@@ -128,6 +130,7 @@ h3 {
     margin-left: 8%;
     padding: 4px;
 }
+
 #btn-3 {
     font-size: x-large;
     float: left;
@@ -135,6 +138,7 @@ h3 {
     margin-left: 8%;
     padding: 4px;
 }
+
 #btn-4 {
     font-size: x-large;
     float: left;
@@ -142,6 +146,7 @@ h3 {
     margin-left: 8%;
     padding: 4px;
 }
+
 #btn-5 {
     font-size: x-large;
     float: left;
@@ -152,22 +157,26 @@ h3 {
 
 /*buttons hover*/
 
- #btn-1:hover {
+#btn-1:hover {
     background-color: palevioletred;
 
 }
+
 #btn-2:hover {
     background-color: palevioletred;
-}   
+}
+
 #btn-3:hover {
     background-color: palevioletred;
-}  
+}
+
 #btn-4:hover {
     background-color: palevioletred;
-}  
+}
+
 #btn-5:hover {
     background-color: palevioletred;
-}   
+}
 
 #choice h4 {
     text-align: center;
@@ -184,3 +193,42 @@ footer {
     padding-top: 0.05px;
     padding-bottom: 2px;
 }
+
+/*responsiveness for screen size 1200px and down*/
+
+@media (max-width: 1200px) {
+
+    /*buttons*/
+    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5 {
+        font-size: large;
+        
+    }
+    /*choive div*/
+   #choice h4 {
+    margin-top: 10%;
+   } 
+   /*footer*/
+
+   footer {
+    font-size: large;
+   }
+}
+
+/*responsiveness for screen size 900px and down*/
+
+@media (max-width: 900px) {
+
+    /*buttons*/
+    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5{
+        font-size: medium;
+        margin-left: 6%;
+    }
+    
+    /*choice div*/
+    #choice h4 {
+        margin-top: 12%;
+    }
+}    
+
+/*responsiveness for screen size 1200px and down*/
+/*responsiveness for screen size 1200px and down*/
