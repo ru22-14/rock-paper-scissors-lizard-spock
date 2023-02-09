@@ -199,19 +199,25 @@ footer {
 @media (max-width: 1200px) {
 
     /*buttons*/
-    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5 {
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
         font-size: large;
-        
-    }
-    /*choive div*/
-   #choice h4 {
-    margin-top: 10%;
-   } 
-   /*footer*/
 
-   footer {
-    font-size: large;
-   }
+    }
+
+    /*choive div*/
+    #choice h4 {
+        margin-top: 10%;
+    }
+
+    /*footer*/
+
+    footer {
+        font-size: large;
+    }
 }
 
 /*responsiveness for screen size 900px and down*/
@@ -219,35 +225,147 @@ footer {
 @media (max-width: 900px) {
 
     /*buttons*/
-    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5{
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
         font-size: medium;
         margin-left: 6%;
     }
-    
+
     /*choice div*/
     #choice h4 {
         margin-top: 12%;
     }
-} 
+}
 
 /*responsiveness for screen size 670px and down*/
 
-@media (max-width: 670px){
-    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5{
+@media (max-width: 670px) {
+
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
         font-size: small;
-        
+
     }
+
     #choice h4 {
         font-size: medium;
     }
 }
+
 /*responsiveness for screen size 600px and down*/
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
+
     /*buttons*/
-    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5 {
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
         margin: 2px;
         margin-left: 2%;
     }
-}    
-/*responsiveness for screen size 1200px and down*/
+}
+
+/*responsiveness for screen size 500px and down*/
+@media (max-width: 500px) {
+
+    /*display*/
+    #score-display {
+        font-size: small;
+        text-align: center;
+    }
+
+    /*buttons*/
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
+        margin-top: 10px;
+        margin-left: 3%;
+    }
+
+    /*choice instruction*/
+    #choice h4 {
+        margin-top: 5%;
+
+    }
+}
+
+/*responsiveness for screen size 390px and down*/
+@media (max-width: 390px) {
+
+    /* choice div*/
+    #choice {
+        padding: 0;
+    }
+
+    /*buttons*/
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
+        font-size: x-small;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+}
+
+/*responsiveness for screen size 390px and down*/
+@media (max-width: 300px) {
+
+    /*heading*/
+    h1 {
+        font-size: small;
+    }
+
+    /* score display div*/
+    #score-display {
+        font-size: small;
+
+    }
+
+    /*choice div*/
+    #choice {
+
+        width: 85%;
+    }
+
+    #choice h4 {
+        font-size: small;
+        margin-top: 50%;
+
+    }
+
+    /*buttons*/
+    #btn-1,
+    #btn-2,
+    #btn-3 {
+
+        font-size: x-small;
+        font-weight: bold;
+        margin: 2px;
+    }
+
+    #btn-4,
+    #btn-5 {
+        font-size: x-small;
+        font-weight: bold;
+        margin-top: 2%;
+        margin-left: 15px;
+    }
+
+    /*footer*/
+    footer {
+        font-size: small;
+        text-align: center;
+    }
+}
