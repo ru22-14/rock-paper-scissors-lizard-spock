@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>RPSLS Game</title>
 </head>
 
 <body>
@@ -17,44 +17,43 @@
             <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
         </header>
         <!-- score display -->
-        <div id="result">
-            <h3>Score</h3>
+        <div id="score-display">
+            <h3 id="result">Let's Play</h3>
             <!-- player score -->
-            <div class="user-score">
-                <h2>You <span id="p-score">: 0 </span></h2>
-            </div>
-            <div id="seperator">
-                <p>VS</p>
-            </div>
+            <div class="p-score">You</div>
             <!-- computer score -->
-            <div class="pc-score">
-                <h2> Computer <span id="c-score">: 0 </span></h2>
-            </div>
-        </div>
+            <div class="pc-score">Computer</div>
+            <span id="player-score"> 0 </span>:<span id="computer-score"> 0 </span>
+                
+          
+         </div>
         <!-- choice buttons -->
-        <div id="moves">
-            <button aria-label="Rock" data-choice="0" class="choice"><i
-                    class="fa-solid fa-hand-back-fist"></i>Rock</button>
-            <button aria-label="Paper" data-choice="1" class="choice"><i class="fa-solid fa-hand"></i>Paper</button>
-            <button aria-label="Scissors" data-choice="2" class="choice"><i
+        <div id="choice">
+            <button aria-label="Rock" id="btn-1" ><i class="fa-solid fa-hand-back-fist"></i>Rock </button>
+            <button aria-label="Paper" id="btn-2" ><i class="fa-solid fa-hand"></i>Paper</button>
+            <button aria-label="Scissors"  id="btn-3" ><i
                     class="fa-solid fa-hand-scissors"></i>Scissors</button>
-            <button aria-label="Lizard" data-choice="3" class="choice"><i
-                    class="fa-solid fa-hand-lizard"></i>Lizard</button>
-            <button aria-label="Spock" data-choice="4" class="choice"><i
+            <button aria-label="Lizard"  id="btn-4" ><i
+                    class="fa-solid fa-hand-lizard" ></i>Lizard</button>
+            <button aria-label="Spock"  id="btn-5"><i
                     class="fa-solid fa-hand-spock"></i>Spock</button>
 
             <h4>Click on the Buttons to select your move</h4>
         </div>
 
-        <script src="assets/js/script.js"></script>
+        
         <!-- font awesome script -->
         <script src="https://kit.fontawesome.com/46a797e506.js" crossorigin="anonymous"></script>
     </section>
+
     <!-- footer -->
     <footer>
         <h4>Game Rules</h4>
-        <p>scissors cut paper|paper covers rock|rock crushes lizard|lizard poisons spock|spock smashes scissors</p>
+        <p>scissors cut paper</p> <p> | </p> <p>
+        paper covers rock | rock crushes lizard | lizard poisons spock | spock smashes scissors</p>
     </footer>
+    <!-- javaScript link -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
