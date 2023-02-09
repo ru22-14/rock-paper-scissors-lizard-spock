@@ -16,3 +16,34 @@ const scissors = "scissors";
 const lizard = "lizard";
 const spock = "spock";
 const choice = document.getElementById("choice");
+
+/**  EventListener function for all buttons */
+function main (){
+   
+    rock_button.addEventListener('click', function() {
+     // game(rock_button);
+     game(rock_button);
+    
+     
+    });
+ 
+    paper_button.addEventListener('click', function() {
+     game(paper_button);
+     
+    });
+ 
+    scissors_button.addEventListener('click', function() {
+     game(scissors_button);
+    });
+ 
+    lizard_button.addEventListener('click', function() {
+     game(lizard_button);
+    });
+ 
+    spock_button.addEventListener('click', function() {
+     game(spock_button);
+    });
+ 
+ }
+ 
+ main();
