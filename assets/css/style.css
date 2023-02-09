@@ -17,6 +17,8 @@ h1 {
     text-align: center;
 }
 
+/* game area */
+
 #game-area {
 
 
@@ -28,56 +30,57 @@ h1 {
     text-align: center;
 
 }
+
 /*score display*/
-#result {
+
+#score-display {
     height: 200px;
     width: 100%;
-
-
-}
-
-#result h3 {
-    text-align: center;
     font-size: x-large;
-    font-weight: bolder;
+
 
 }
 
-.user-score {
+/* score div*/
+.p-score {
     float: left;
-
+    font-size: larger;
+    font-weight: 400;
     margin-bottom: 10px;
     margin-left: 10%;
     background-image: url(../images/rpc.image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 200px;
+    height: 170px;
     width: 15%;
 
 }
 
-#seperator {
+/*player score side*/
+#player-score  {
     font-size: xx-large;
-    font-weight: 900;
-    float: left;
-    margin-top: 15px;
-    margin-left: 20%;
-    height: 50px;
-
-
+    font-weight: 600;
+    margin-right: 10px;
+    
 }
 
-h2 {
+/*winner announcement*/
+h3 {
 
     text-align: center;
 }
 
+ /* player score result*/
+
+ /*computer score side*/
 .pc-score {
     float: right;
+    font-size: larger;
+    font-weight: 400;
     margin-right: 10%;
     padding-right: 0;
-    height: 200px;
+    height: 170px;
     width: 15%;
     background-image: url(../images/rpc.image.jpg);
     background-position: center;
@@ -85,36 +88,94 @@ h2 {
     background-size: contain;
 
 }
+
+/* computer score result*/
+
+#computer-score  {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+
 /* moves div*/
-#moves {
+
+#choice {
     height: 120px;
     width: 100%;
     border: 2px solid;
     margin-top: 5%;
     padding: 15px;
     background-color: rgba(56, 147, 95, 0.824);
+    font-size: larger;
+    text-align: center;
 
 }
-/* moves buttons */
-.choice {
+
+/* choice buttons */
+
+#btn-1 {
     font-size: x-large;
     float: left;
-    display: flex;
-    margin-left: 7%;
     margin-top: 20px;
+    margin-left: 8%;
+    padding: 4px;
+}
+#btn-2 {
+    font-size: x-large;
+    float: left;
+    margin-top: 20px;
+    margin-left: 8%;
+    padding: 4px;
+}
+#btn-3 {
+    font-size: x-large;
+    float: left;
+    margin-top: 20px;
+    margin-left: 8%;
+    padding: 4px;
+}
+#btn-4 {
+    font-size: x-large;
+    float: left;
+    margin-top: 20px;
+    margin-left: 8%;
+    padding: 4px;
+}
+#btn-5 {
+    font-size: x-large;
+    float: left;
+    margin-top: 20px;
+    margin-left: 8%;
+    padding: 4px;
 }
 
 /*buttons hover*/
-.choice:hover {
+
+ #btn-1:hover {
     background-color: palevioletred;
 
 }
+#btn-2:hover {
+    background-color: palevioletred;
+}   
+#btn-3:hover {
+    background-color: palevioletred;
+}  
+#btn-4:hover {
+    background-color: palevioletred;
+}  
+#btn-5:hover {
+    background-color: palevioletred;
+}   
 
-#moves h4 {
+#choice h4 {
     text-align: center;
     margin-top: 8%;
 }
+
 /*footer*/
+
 footer {
     text-align: center;
     color: white;
@@ -122,6 +183,4 @@ footer {
     margin-top: 4px;
     padding-top: 0.05px;
     padding-bottom: 2px;
-
-
 }
