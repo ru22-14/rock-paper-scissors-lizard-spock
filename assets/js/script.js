@@ -32,19 +32,18 @@ console.log(getComputerChoice());
 
 /** win function will display the game winner */
 
-function win(playerChoice, computerChoice) {
-    playerScore++;
-    playerScore_span.innerHTML = playerScore;
-    computerScore_span.innerHTML = computerScore;
-    if (playerScore === 5) {
-        result_h3.innerHTML = (`You Win`);
+ function win() {
+     playerScore++;
+     playerScore_span.innerHTML = playerScore;
+     computerScore_span.innerHTML = computerScore;
+     if (playerScore === 5) {
+       result_h3.innerHTML = (`You Win`);
         playerScore = 0;
         computerScore = 0;
-    }
-}
-
-/** loose function will display who looses the game  */
-function loose(playerChoice, computerChoice) {
+     }
+}     
+  /** loose function will display who looses the game  */
+function loose() {
     computerScore++;
     playerScore_span.innerHTML = playerScore;
     computerScore_span.innerHTML = computerScore;
@@ -54,12 +53,14 @@ function loose(playerChoice, computerChoice) {
         computerScore = 0;
     }
 
-
 }
+
+
 
 /** main game function */
 
 function game(playerChoice) {
+    
 
     const computerChoice = getComputerChoice();
 
@@ -68,85 +69,143 @@ function game(playerChoice) {
     } else if (playerChoice === rock_button) {
         if (computerChoice === paper) {
             console.log("you loose");
-            loose(playerChoice, computerChoice);
+            loose();
+        }else {
+            win();
         }
-    } else if (playerChoice === rock_button) {
+    } else if (playerChoice ===  rock_button) {
         if (computerChoice === scissors) {
-            win(playerChoice, computerChoice);
+            win();
+            
             console.log("you win");
+           
+        } else{
+            loose();
         }
     } else if (playerChoice === rock_button) {
         if (computerChoice === lizard) {
-            win(playerChoice, computerChoice);
+            win();
             console.log("you win");
+            
+        } else {
+            loose();
         }
     } else if (playerChoice === rock_button) {
         if (computerChoice === spock) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === paper_button) {
         if (computerChoice === rock) {
-            win(playerChoice, computerChoice);
+            win();
+            
+        } else {
+            loose();
         }
     } else if (playerChoice === paper_button) {
         if (computerChoice === scissors) {
-            loose(playerChoice, computerChoice);
+            loose();
+           
+        } else {
+            win();
         }
     } else if (playerChoice === paper_button) {
         if (computerChoice === lizard) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === paper_button) {
         if (computerChoice === spock) {
-            win(playerChoice, computerChoice);
+            win();
+            
         }
     } else if (playerChoice === scissors_button) {
         if (computerChoice === rock) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === scissors_button) {
         if (computerChoice === paper) {
-            win(playerChoice, computerChoice);
+            win();
+            
+        } else {
+            loose();
         }
     } else if (playerChoice === scissors_button) {
         if (computerChoice === lizard) {
-            win(playerChoice, computerChoice);
+            win();
+            
+        } else {
+            loose();
         }
     } else if (playerChoice === scissors_button) {
         if (computerChoice === spock) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === lizard_button) {
         if (computerChoice === rock) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === lizard_button) {
         if (computerChoice === paper) {
-            win(playerChoice, computerChoice);
+            win();
+        
+        } else {
+            loose();
         }
     } else if (playerChoice === lizard_button) {
         if (computerChoice === scissors) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === lizard_button) {
         if (computerChoice === spock) {
-            win(playerChoice, computerChoice);
+            win();
+           
+        } else {
+            loose();
         }
     } else if (playerChoice === spock_button) {
         if (computerChoice === rock) {
-            win(playerChoice, computerChoice);
+            win();
+           
+        } else {
+            loose();
         }
     } else if (playerChoice === spock_button) {
         if (computerChoice === paper) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     } else if (playerChoice === spock_button) {
         if (computerChoice === scissors) {
-            win(playerChoice, computerChoice);
+            win();
+           
+        } else {
+            loose();
         }
     } else if (playerChoice === spock_button) {
         if (computerChoice === lizard) {
-            loose(playerChoice, computerChoice);
+            loose();
+            
+        } else {
+            win();
         }
     }
 
