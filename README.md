@@ -14,7 +14,7 @@ This website is aimed at anyone that likes a good game of **rock, paper, scissor
 - Result
      - Whoever gets **5 points** first, either the player or the computer will **Win** the game. 
      - The score will automatically reset to **0**,so the next game can be started.
-![This is an image](./assets/images/Screenshot-result.png)
+     ![This is an image](./assets/images/Screenshot-result.png)
 
 - Score Board
      - The scores display on the **ScoreBoard**. If the user beats computer 1 score will be added 
