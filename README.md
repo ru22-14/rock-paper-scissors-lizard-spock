@@ -35,6 +35,8 @@ This website is aimed at anyone that likes a good game of **rock, paper, scissor
 
 
 ## Testing
+![This is an image](./assets/images/lighthouse.png)
+
 ### Bugs
 ### Validator Testing
 ### Unfixed Bugs
