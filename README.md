@@ -35,10 +35,18 @@ This website is aimed at anyone that likes a good game of **rock, paper, scissor
 
 
 ## Testing
+- The Game is being tested on Google Chrome, Safari and Microsoft Edge.
+- The Game looks good, works properly and is responsive on different screen sizes. 
+- The Game displays scores and result correctly.
+- All the features are working properly. The header, the instructions in footer and the font used in this game are completely readable and went through the lighthouse.
 ![This is an image](./assets/images/lighthouse.png)
 
 ### Bugs
 ### Validator Testing
+- HTML
+  - No errors were found when tested through https://validator.w3.org/
+- CSS
+  -   
 ### Unfixed Bugs
 ## Deployment
 ## Credits
