@@ -15,7 +15,7 @@ const paper = "paper";
 const scissors = "scissors";
 const lizard = "lizard";
 const spock = "spock";
-const choice = document.getElementById("choice");
+
 
 
 

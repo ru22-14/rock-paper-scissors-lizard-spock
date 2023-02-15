@@ -42,13 +42,28 @@ This website is aimed at anyone that likes a good game of **rock, paper, scissor
 ![This is an image](./assets/images/lighthouse.png)
 
 ### Bugs
+- There are no bugs found.
 ### Validator Testing
 - HTML
   - No errors were found when tested through https://validator.w3.org/
 - CSS
-  -   
+  - No errors were founf when passing through https://jigsaw.w3.org/  
 ### Unfixed Bugs
+- There are no Unfixed Bugs.
 ## Deployment
+To deploy this page to GitHub Pages following steps were taken:
+
+- Log into GitHub.
+- From the list of repositories on the screen, select ru22-14/rpslsgame.
+- From the menu items near the top of the page, select Settings.
+- Scroll down to the GitHub Pages section.
+- Under Source click the drop-down menu labelled None and select Main Branch.
+- On selecting Main Branch the page is automatically refreshed, the website is now deployed.
+- Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+- This link is here https://ru22-14.github.io/rpsls-game/
 ## Credits
-### context
-### Media
+#### context
+- Took help how to write else if statement from https://stackoverflow.com/.
+- To give Icons to the buttons i used https://fontawesome.com/ .
+#### Media
+- The pictures used in this game are taken from https://www.istockphoto.com/
