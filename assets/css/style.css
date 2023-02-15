@@ -1,4 +1,11 @@
+element.style {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
 html, body {
+    
     height: 100%;
     position: relative;
     width: 100%;
@@ -201,6 +208,7 @@ footer {
     color: white;
     background-color: black;
     bottom: 0;
+    margin-left: 0;
     padding-bottom: 15px;
     width: 100%;
 }
@@ -221,14 +229,10 @@ footer {
 
     /*choive div*/
     #choice h4 {
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
-    /*footer*/
-
-    footer {
-        font-size: large;
-    }
+    
 }
 
 /*responsiveness for screen size 900px and down*/
@@ -308,9 +312,7 @@ footer {
         font-size: small;
     }
 
-    footer {
-        font-size: medium;
-    }
+
 }
 
 /*responsiveness for screen size 500px and down*/
@@ -356,7 +358,19 @@ footer {
         margin-left: 40%;
     }
 }
-
+/*responsiveness for screen size 412px and down*/
+@media (max-width: 412px) {
+    #btn-1,
+    #btn-2,
+    #btn-3,
+    #btn-4,
+    #btn-5 {
+        font-size: x-small;
+        margin-top: 5%;
+        margin-left: 13px;
+        margin-right: 2px;
+    }
+}
 
 /*responsiveness for screen size 390px and down*/
 @media (max-width: 390px) {
