@@ -45,11 +45,14 @@ h1 {
     text-align: center;
 
 }
+h6 {
+    margin-top: -10px;
+}
 
 /*score display*/
 
 #score-display {
-    height: 200px;
+    height: 250px;
     width: 100%;
     font-size: x-large;
 
@@ -84,6 +87,7 @@ h1 {
 h3 {
 
     text-align: center;
+    
 }
 
 /* player score result*/
@@ -116,13 +120,13 @@ h3 {
 /* moves div*/
 
 #choice {
-    height: 120px;
+    height: 150px;
     width: 100%;
     border: 2px solid;
     margin-top: 5%;
     padding: 15px;
     background-color: rgba(56, 147, 95, 0.824);
-    font-size: large;
+   
     text-align: center;
 
 
