@@ -75,7 +75,13 @@ function game(playerChoice) {
     } else if (playerChoice === scissors_button && computerChoice === 'Scissors') {
         result_h3.innerHTML = (`${playerChoice.innerText} is equals to ${computerChoice} its a Tie.`);
 
-    } else if (playerChoice === rock_button) {
+    } else if (playerChoice === lizard_button && computerChoice === 'Lizard') {
+        result_h3.innerHTML = (`${playerChoice.innerText} is equals to ${computerChoice} its a Tie.`);
+
+    } else if (playerChoice === spock_button && computerChoice === 'Spock') {
+        result_h3.innerHTML = (`${playerChoice.innerText} is equals to ${computerChoice} its a Tie.`);
+
+    }  else if (playerChoice === rock_button) {
         if (computerChoice === 'Paper') {
             result_h3.innerHTML = (`${computerChoice} beats ${playerChoice.innerText} `);
             loose(str1, str2);
