@@ -1,7 +1,7 @@
 <h1 align="center">Rock, Paper, Scissors, Lizard, Spock Game</h1>
 
-<img src="assets/images/Screenshot%20responsiveness.png" width="100%" align="center">
-![This is an image](./assets/images/Screenshot%20responsiveness.png)
+<img src="assets/images/Screenshot%20responsiveness.png" width="80%" align="center">
+
 
 # Introduction
 This website is aimed at anyone that likes a good game of **rock, paper, scissors, lizard, spock**. The aim is to give the sites user a great and submersive experience. The result of the Game is totally fair as the computer chooses randomly. This Game targets towards both **adults** and **children**. The Rules of the Game are defined so the players can easily learn then and play the Game.
