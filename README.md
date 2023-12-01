@@ -1,5 +1,6 @@
 <h1 align="center">Rock, Paper, Scissors, Lizard, Spock Game</h1>
 
+<img src="assets/images/Screenshot%20responsiveness.png" width="100%" align="center">
 ![This is an image](./assets/images/Screenshot%20responsiveness.png)
 
 # Introduction
